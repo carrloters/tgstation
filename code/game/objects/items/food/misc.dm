@@ -73,7 +73,7 @@
 	name = "candy corn"
 	desc = "Disgusting"
 	icon_state = "candy_corn"
-	food_reagents = list(/datum/reagent/consumable/sugar = 1500)
+	food_reagents = list(/datum/reagent/consumable/sugar = 1550)
 	tastes = list("shit" = 1)
 	foodtypes = JUNKFOOD | SUGAR | GROSS
 	food_flags = FOOD_FINGER_FOOD
