@@ -71,11 +71,11 @@
 
 /obj/item/food/candy_corn
 	name = "candy corn"
-	desc = "It's a handful of candy corn. Can be stored in a detective's hat."
+	desc = "Disgusting"
 	icon_state = "candy_corn"
-	food_reagents = list(/datum/reagent/consumable/nutriment = 4, /datum/reagent/consumable/sugar = 2)
-	tastes = list("candy corn" = 1)
-	foodtypes = JUNKFOOD | SUGAR
+	food_reagents = list(/datum/reagent/consumable/sugar = 1500)
+	tastes = list("shit" = 1)
+	foodtypes = JUNKFOOD | SUGAR | GROSS
 	food_flags = FOOD_FINGER_FOOD
 	w_class = WEIGHT_CLASS_TINY
 
